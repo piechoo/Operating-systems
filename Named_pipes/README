@@ -1,0 +1,21 @@
+=============================================================================================================
+Autor: Piotr Piechowicz                                                                     03.04.2019r
+
+Catalog contains programs:
+
+-----Programs 1 are : (producent) reading data from source file and sending it into named pipe,and runs consument in child process 
+					  (consument) reading data from named pipe and saving data to output file 
+	-> To run use command make run1 
+    
+-----Programy 2 odpowiadaja za: (producent) reading data from file and saving it into pipe created by shell
+                                (consument) reading data from the pipe and saving it into output file
+    
+    -> To run use command make run2   
+
+==============================================================================================================
+     Cleaning
+    -> Komenda make clean
+    
+     Archivization
+    -> Komenda make tar
+==============================================================================================================

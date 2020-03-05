@@ -1,0 +1,17 @@
+==========================================================================================================================================================================
+Autor: Piotr Piechowicz                                                                     27.03.2019r
+
+
+Catalog contains programs:
+
+-----Program 1 (producent) is reading data from source file and sending it into unnamed pipe, and runs Program 2(consument) in child process ,
+		which is reading data from the pipe and saving data to output file  
+    -> To run use command make run1 
+
+==========================================================================================================================================================================
+     Cleaning
+    -> make clean
+    
+     Archivization
+    -> make tar
+==========================================================================================================================================================================

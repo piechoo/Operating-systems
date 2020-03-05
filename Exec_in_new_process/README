@@ -1,0 +1,15 @@
+=======================================================================================================
+Autor: Pior Piechowicz                                                                      13.03.2019r
+
+Catalog contains programs:
+        -> so1a.c, which is writing out process id
+        -> so1exec.c,which is using fork function and launching program so1a with exec function 
+        
+        ->To run use command :
+			make run1
+        
+        ->Cleaning
+			make clean
+        
+        ->Archivizing
+			make tar

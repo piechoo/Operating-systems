@@ -1,0 +1,30 @@
+================================================================================================================================================
+Autor: Piotr Piechowicz                                                                     23.05.2019r
+
+Catalog contains programs:
+
+-----Programs : 
+			- serwer.c (server) is creating message queue which is receiving mathematical equation and is sending the result back
+					program is closed with combination Ctrl+C
+					
+            - klient.c (client) is opening server message queue and sending mathematical equation typed using keyboard, and then it receives result from
+					the server into a new created message queue and writes the result onto screen
+					program is closed with combination Ctrl+D
+            
+            - kolejki.c (library with messsage queues functions)
+            
+            - kolejki.h (library header)
+            					
+=================================================================================================================================================
+Launching:
+							
+    -> Launching (In red window server, in blue clients)
+    		- make run
+    		
+================================================================================================================================================
+     Cleaning
+    -> Komenda make clean
+    
+	Archivization
+    -> Komenda make tar
+================================================================================================================================================

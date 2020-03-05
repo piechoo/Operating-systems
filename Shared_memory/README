@@ -1,0 +1,43 @@
+================================================================================================================================================
+Autor: Piotr Piechowicz                                                                     14.05.2019r
+
+Catalog contains programs:
+
+-----Programs : 
+			- s07.c (producent) is reading data from source file and saving it into previously created shared memory, and on the exit it deletes created semaphores and shared memory. 
+	    	  	
+            - s07k.c (consument)is reading data from shared memory and saving it into output file
+-----Files :
+			- Source - source file
+			- Output - output file
+=================================================================================================================================================
+							
+    -> Run programs using static library
+    		- make runs
+    -> Run programs using shared library ver 1
+    		-make rund1
+    -> Run programs using shared library ver 2
+    		- make rund2
+================================================================================================================================================
+     Cleaning
+    -> make clean
+    
+     Archivization
+    -> make tar
+================================================================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

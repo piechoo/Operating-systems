@@ -1,0 +1,22 @@
+=============================================================================================================
+Autor: Piotr Piechowicz                                                                     20.03.2019r
+
+Catalog contains programs:
+
+-----Program 1 handles signal in chosen way (d - default action, i - ignoring, p - signal interception)
+    -> To run use command make run1 ARGS="arg1 arg2" (arg1 - choosing action, arg2 - signal number)
+
+-----Program 2 runs program 1 using exec function and sends signal to program 1 (d - default action, i - ignoring, p - signal interception)
+    ->To run use command make run2 ARGS="arg1 arg2" (arg1 - choosing action, arg2 - signal number)
+
+-----Program 3 creates child process, which creates child processes,which run program 1 (d - default action, i - ignoring, p - signal interception)
+    ->To run use command make run3 ARGS="arg1 arg2" (arg1 - choosing action, arg2 - signal number)
+
+==============================================================================================================
+     Cleaning
+    -> make clean
+    
+     Archivization 
+    -> make tar
+==============================================================================================================
+

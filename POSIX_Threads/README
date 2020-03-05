@@ -1,0 +1,21 @@
+================================================================================================================================================
+Autor: Piotr Piechowicz                                                                     26.05.2019r
+
+Catalog contains programs:
+
+-----Programs : 
+			- watki.c  program initializing mutex and creating certain number of threads, which are writing critical section data on the right side of screen 
+					   and are incrementing counter (final value is equal :number of threads*number of critical sections of each thread)
+
+=================================================================================================================================================
+Launching:
+							
+    -> Launching 
+    		-make run
+================================================================================================================================================
+    Cleaning
+    -> Komenda make clean
+    
+    Archivization
+    -> Komenda make tar
+================================================================================================================================================

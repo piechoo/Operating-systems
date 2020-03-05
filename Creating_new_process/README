@@ -1,0 +1,28 @@
+=============================================================================================================
+Author: Piotr Piechowicz                                                                     06.03.2019r
+
+Contens:
+Catalog contains programs:
+
+-----Program 1 writes out process' identificators 
+    -> To run use command make run1
+
+-----Program 2 uses fork function and writes out identificators of parent and child process, using wait function
+    -> To run use command make run2    
+
+-----Program 3 causes that child proceses are intercepted by init process,using sleep function
+    -> To run use command make run3
+
+-----Program 4 writes out processes' identificators in chronological order,using sleep function.   
+    -> To run use command make run4
+     
+-----Program 5 causes that child processes are becoming their group leaders,using setpgid function
+    -> Uruchamialny za pomocą komeny make run5
+==============================================================================================================
+     Cleaning
+    -> Command make clean
+    
+     Archivization
+    -> Command make tar
+==============================================================================================================
+
